@@ -37,11 +37,11 @@ stellarGAN
  |       |─ M-type
 ```
 ## Training
-```
+
 Step 1: Pre-training the Discriminator (D)
 
 The pre-training process for the Discriminator can be initiated using the following Python command, which runs the script train_pre.py:
-
+```
 python train_pre.py
 ```
 Within this script, the Discriminator model ('D') is trained for a binary classification task. Once the training is complete, the pre-trained model parameters are saved for future use.
