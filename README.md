@@ -1,2 +1,2 @@
 # stellarGAN
-![image](https://github.com/lexsaints/powershell/blob/master/IMG/ps2.png)
+![image][(https://github.com/WadeLaucasia/stellarGAN/blob/main/Figures/stellarGAN.png)]
