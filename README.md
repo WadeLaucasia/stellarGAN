@@ -37,13 +37,21 @@ stellarGAN
  |       |─ M-type
 ```
 ## Training
-After the preparation, you can start the training with the following command.
+####Step 1: Pre-training the Discriminator (D)
 
-For the SDSS training.
+The pre-training process for the Discriminator can be initiated using the following Python command, which runs the script train_pre.py:
 ```
- 
+python train_pre.py
+```
+Within this script, the Discriminator model ('D') is trained for a binary classification task. Once the training is complete, the pre-trained model parameters are saved for future use.
 
+####Step 2: Initialize and Re-train the Discriminator (D)
+After the pre-training is complete, you can remove any instances of the Generator model ('G') if they exist. Subsequently, initialize a new Discriminator model using the pre-trained parameters. To adapt the model for a multi-class classification task, modify its architecture accordingly.
 
+The training for this adapted Discriminator can be executed with the following command:
+```
+python train_sec_D.py
+```
 
 ```
 
