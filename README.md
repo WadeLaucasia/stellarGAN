@@ -37,7 +37,11 @@ stellarGAN
  |       |─ K-type
  |       |─ M-type
 ```
+## Training
+After the preparation, you can start the training with the following command.
 
+For the SDSS training.
+```
  
 
 
