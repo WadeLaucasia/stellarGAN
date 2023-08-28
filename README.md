@@ -37,9 +37,9 @@ stellarGAN
  |       |─ M-type
 ```
 ## Training
-
+```
 ###Step 1: Pre-training the Discriminator (D)
-
+```
 The pre-training process for the Discriminator can be initiated using the following Python command, which runs the script train_pre.py:
 ```
 python train_pre.py
@@ -53,6 +53,3 @@ The training for this adapted Discriminator can be executed with the following c
 ```
 python train_sec_D.py
 ```
-
-```
-
