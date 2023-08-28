@@ -5,3 +5,10 @@
 </div>
 Figure 1. The structure schematic of stellarGAN in the pre-training phase. The noise vector is fed into G to generate spectra, which are labeled as 0 to indicate that they are not from real data. Then the generated spectra and real spectra (labeled as 1) are sent to train the D.
 
+### Dependencies
+
+Our implementation uses external libraries such as NumPy and PyTorch. You can resolve the dependencies with the following command.
+```
+pip install numpy
+pip install -r requirements.txt
+
