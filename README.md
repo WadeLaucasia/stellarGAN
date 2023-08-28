@@ -1,5 +1,4 @@
 # StellarGAN: Classifying Stellar Spectra with Generative Networks in SDSS and APOGEE Sky Surveys
-![Image text](https://github.com/WadeLaucasia/stellarGAN/blob/main/Figures/stellarGAN.png)
 <div align="center">
   <img src="Figures/stellarGAN.png" width="900px" />
     Figure 1
