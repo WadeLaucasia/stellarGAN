@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/683989873.svg)](https://zenodo.org/doi/10.5281/zenodo.10608592)
 # StellarGAN: Classifying Stellar Spectra with Generative Networks in SDSS and APOGEE Sky Surveys
 <div align="center">
   <img src="Figures/stellarGAN.png" width="900px" />
@@ -47,6 +48,7 @@ Within this script, the Discriminator model ('D') is trained for a binary classi
 
 Step 2: Initialize and Re-train the Discriminator (D)
 After the pre-training is complete, you can remove any instances of the Generator model ('G') if they exist. Subsequently, initialize a new Discriminator model using the pre-trained parameters. To adapt the model for a multi-class classification task, modify its architecture accordingly.
+
 
 The training for this adapted Discriminator can be executed with the following command:
 ```
